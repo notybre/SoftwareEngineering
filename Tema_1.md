@@ -313,64 +313,75 @@ $ git commit -m "Восстановление файла к предыдущем
 Команда git checkout main --path заменит текущую версию файла на состояние из указанного коммита
 
 ## Лабораторная работа №12
+### Возвращение к предыдущему коммиту
+
+``` git
+Roman@Computer MINGW64 /a/GIT/SoftwareEngineering (main)
+$ git reset --soft HEAD^
+
+```
+### Результат.
+![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_12.PNG)
+
+## Выводы
+Работает примерно как Ctrl+Z в программах редакторах. Есть несколько вариантов отката --hard хэш_коммита, --hard, --soft (с сохранением изменений текущей директории)
+
+## Лабораторная работа №13
 ### Установка.
 
 ``` git
-git --version
+Roman@Computer MINGW64 /a/GIT/SoftwareEngineering (main)
+$ git commit --amend
+[main cdfb4d1] Первый коммит
+ Date: Thu Sep 4 15:47:05 2025 +0500
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testfile.txt
+
+Roman@Computer MINGW64 /a/GIT/SoftwareEngineering (main)
+$ git rebase --continue
+fatal: no rebase in progress
+
 ```
 ### Результат.
-![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_1.PNG)
+![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_13.PNG)
 
 ## Выводы
-Git успешно установлен
+--amend открывает редактор (в моем случае VSCode, так, как настроил в начале). Можно исправить параметры коммита. git rebase -i HEAD~3 исправить коммит два коммита назад
 
-## Лабораторная работа №1
-### Установка.
+## Лабораторная работа №14
+### Разрешение конфликтов при слиянии
 
 ``` git
-git --version
+Roman@Computer MINGW64 /a/GIT/SoftwareEngineering (main)
+$ git merge TestBranch1
+Already up to date.
+
 ```
 ### Результат.
-![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_1.PNG)
+![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_14.PNG)
 
 ## Выводы
-Git успешно установлен
+Для того, чтобы разрешить конфликты при слиянии (merge) необходимо:
 
-## Лабораторная работа №1
-### Установка.
+1. Запустить команду слияния
+2. Открыть файлы с конфликтами с помощью метки '<<<<<<<HEAD'и '>>>>>>>имя_ветки'
+3. Разрешить конфликты, оставить только код, который должен остаться
+4. Добавить измененные файлы
+5. Продолжить операцию слияния
+6. Завершить слияние
+
+## Лабораторная работа №15
+### Настройка .gitignore
 
 ``` git
-git --version
+*.log
+node_modules/
+.env
+temp/*
 ```
 ### Результат.
-![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_1.PNG)
+![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_15.PNG)
 
 ## Выводы
-Git успешно установлен
-
-## Лабораторная работа №1
-### Установка.
-
-``` git
-git --version
-```
-### Результат.
-![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_1.PNG)
-
-## Выводы
-Git успешно установлен
-
-## Лабораторная работа №1
-### Установка.
-
-``` git
-git --version
-```
-### Результат.
-![Меню](https://github.com/notybre/SoftwareEngineering/blob/Tema_1/pic/Tema1_1.PNG)
-
-## Выводы
-Git успешно установлен
-
-
+С помощью .gitignore можно исключить ненужные файлы, сократить размер репозитория, улучшить безопасность и сохранить чистоту репозитория.
 
