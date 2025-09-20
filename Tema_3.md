@@ -59,9 +59,9 @@ else:
     print("Больше 10")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(2\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(2\).PNG)
 
-**Вывод:** программа правильно различает три диапазона значений.
+**Вывод:** программа  различает три диапазона значений.
 
 ---
 
@@ -79,7 +79,7 @@ else:
     print("Переменная отсутсвует")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(3\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(3\).PNG)
 
 **Вывод:** оператор `in` удобно использовать для поиска в массиве.
 
@@ -102,7 +102,7 @@ else:
     print(f"Переменной нет в массиве и она равна {value}")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(4\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(4\).PNG)
 
 **Вывод:** программа проверяет не только наличие, но и чётность числа.
 
@@ -127,9 +127,9 @@ for i in range(10):
       break
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(5\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(5\).PNG)
 
-**Вывод:** цикл наглядно показывает работу операций сравнения.
+**Вывод:** цикл показывает работу операций сравнения.
 
 ---
 
@@ -150,7 +150,7 @@ else:
     print(f"Буква '{value}' не найдена")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(6\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(6\).PNG)
 
 **Вывод:** оператор `else` в цикле выполняется только при отсутствии `break`.
 
@@ -167,9 +167,9 @@ for i in range(10, -1, -1):
     print(i, value)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(7\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(7\).PNG)
 
-**Вывод:** цикл `for` легко организовать в обратном порядке.
+**Вывод:** цикл `for` легко сделть в обратном порядке.
 
 ---
 
@@ -189,7 +189,7 @@ while value < 100:
     print(value)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(8\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(8\).PNG)
 
 **Вывод:** при правильном условии цикл `while` завершается корректно.
 
@@ -210,7 +210,7 @@ for i in range(10):
 print("value")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(9\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(9\).PNG)
 
 **Вывод:** вложенные циклы позволяют проверять комбинации значений.
 
@@ -235,7 +235,7 @@ else:
   print("В массиве все числа четные")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(10\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(10\).PNG)
 
 **Вывод:** переменная `flag` удобно используется как индикатор условия.
 
@@ -257,7 +257,7 @@ x += 1
 print(x)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(1\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(1\).PNG)
 
 **Вывод:** программа выполняет задание, используя только разрешённые операции.
 
@@ -272,9 +272,9 @@ for ch in "Hello World"[::-1]:
     print(ch)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(2\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(2\).PNG)
 
-**Вывод:** строка успешно выводится посимвольно в обратном порядке.
+**Вывод:** строка выводится посимвольно в обратном порядке.
 
 ---
 
@@ -296,7 +296,7 @@ else:
     print("число вне диапазона")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(3\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(3\).PNG)
 
 **Вывод:** программа корректно работает с диапазонами чисел.
 
@@ -317,7 +317,7 @@ print("Начинается с 'The':", s.startswith("The"))
 print("Заканчивается на 'end':", s.endswith("end"))
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(4\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(4\).PNG)
 
 **Вывод:** программа выполняет все манипуляции со строкой - подсчёт символов, переводит в нижний регистр, считает количество гласных с помощью строки гласных, меняет слова в предложени, начинает строку с The и заканчивает на end.
 
@@ -340,7 +340,7 @@ while ' world' not in string:
     counter += 1
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(5\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/s%20\(5\).PNG)
 
 **Вывод:** программа выводит требуемые строки в консоль.
 
