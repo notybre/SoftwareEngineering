@@ -1,0 +1,2 @@
+for ch in "Hello World"[::-1]:
+    print(ch)
