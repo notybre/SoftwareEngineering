@@ -38,7 +38,7 @@ else:
     print("Не выполняется")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(1\).png)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_3/pic/l%20\(1\).PNG)
 
 **Вывод:** программа корректно сравнивает введённые значения.
 
