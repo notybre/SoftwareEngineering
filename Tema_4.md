@@ -319,7 +319,7 @@ if __name__ == '__main__':          # проверка, что программ�
     print(f"Время выполнения программы - {time_costs}")  # выводим затраченное время
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s4%20\(1\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s%20\(1\).PNG)
 
 **Вывод:** программа вычисляет длины векторов по координатам, полученным с помощью кортежа с именованными элементами`**kwargs` и показывает время выполнения.
 
@@ -347,7 +347,7 @@ if __name__ == "__main__":
     dice()
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s4%20\(2\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s%20\(2\).PNG)
 
 **Вывод:** функция корректно моделирует бросок кубика и обрабатывает разные исходы с помощтю if else конструкций.
 
@@ -366,7 +366,7 @@ for i in range(5):
     time.sleep(1)                               # задержка на 1 секунду
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s4%20\(3\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s%20\(3\).PNG)
 
 **Вывод:** программа каждую секунду выводит текущее время в течение 5 секунд с помощью библиотеки `datetime` и встроенной в нее функции strftime.
 
@@ -384,7 +384,7 @@ if __name__ == "__main__":
     print("Среднее:", average(2, 4, 6, 8, 10))
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s4%20\(4\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s%20\(4\).PNG)
 
 **Вывод:** функция вычисляет среднее значение для любого количества аргументов.
 
@@ -416,7 +416,7 @@ if __name__ == "__main__":
     print("Площадь треугольника:", area)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s4%20\(5\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_4/pic/s%20\(5\).PNG)
 
 **Вывод:** программа вычисляет площадь треугольника по формуле Герона, разделяя логику на два файла (модуль + основной код).
 
