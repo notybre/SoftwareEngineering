@@ -320,8 +320,8 @@ print("Разных людей:", unique_visitors)
 print("Чаще всех приходил код:", most_common_code, "-", maxcount, "раз(а)")
 ```
 
-**Скриншоты:**
-`![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(1\).PNG)`
+
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(1\).PNG)
 
 **Вывод:** подсчёт производится стандартными средствами: `len()` - общее количество, `set()` - уникальные посетители, `collections.Counter` - наиболее часто встречающийся элемент.
 
@@ -352,8 +352,8 @@ print("Три худших результата:", worst3)
 print("Результаты начиная с индекса 10:", from10)
 ```
 
-**Скриншоты:**
-`![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(2\).PNG)`
+
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(2\).PNG)
 
 **Вывод:** для лучших/худших использовано `sorted()`, срезы возвращают подмножества по индексам, фильтрация по условию через list comprehension.
 
@@ -389,8 +389,8 @@ print("Стороны (min): ", (a_min, b_min, c_min), "Площадь:", area_m
 
 ```
 
-**Скриншоты:**
-`![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(3\).PNG)`
+
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(3\).PNG)
 
 **Вывод:** построение треугольников из экстремальных значений списков и применение формулы Герона возвращает ожидаемые площади
 
@@ -430,8 +430,8 @@ print("Вариант 3:", fixed_3)
 
 ```
 
-**Скриншоты:**
-`![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(4\).PNG)`
+
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(4\).PNG)
 
 **Вывод:** функция fix_grades возвращает новый список без `2` и с исправленными оценками.
 
@@ -472,8 +472,7 @@ print(make_special_set(list_3))
 
 ```
 
-**Скриншоты:**
-`![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(5\).PNG)`
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_5/pic/s%20\(5\).PNG)
 
 **Вывод:** вложенным циклом подсчитать количество повторений каждого числа; добавить само число в множество; через while добавить строки 'xx'…'x' в зависимости от количества.
 
