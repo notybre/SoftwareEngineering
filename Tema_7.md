@@ -267,7 +267,7 @@ print(f"Количество слов: {word_count}")
 print(f"Самое частое слово: '{most_common[0]}' — встречается {most_common[1]} раз(а)")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s7%20\(1\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s%20\(1\).PNG)
 
 **Вывод:**
 Программа корректно подсчитала общее количество слов в файле и определила слово, встречающееся чаще всего.
@@ -299,7 +299,7 @@ if __name__ == "__main__":
     show_expenses("expenses.txt")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s7%20\(2\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s%20\(2\).PNG)
 
 **Вывод:**
 Программа позволяет добавлять новые расходы и просматривать список всех трат из файла, корректно записывая и читая данные.
@@ -325,7 +325,7 @@ print(f"{words} words")
 print(f"{lines_count} lines")
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s7%20\(3\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s%20\(3\).PNG)
 
 **Вывод:**
 Программа успешно подсчитала статистику по текстовому файлу, определив количество букв, слов и строк.
@@ -357,7 +357,7 @@ for word in banned:
 print(text)
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s7%20\(4\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s%20\(4\).PNG)
 
 **Вывод:**
 Все запрещённые слова заменяются звёздочками с сохранением длины слова и без учёта регистра.
@@ -382,7 +382,7 @@ if __name__ == "__main__":
     random_quote()
 ```
 
-![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s7%20\(5\).PNG)
+![Результат](https://github.com/notybre/SoftwareEngineering/blob/Tema_7/pic/s%20\(5\).PNG)
 
 **Вывод:**
 Программа случайным образом выбирает и выводит цитату из текстового файла, демонстрируя чтение и выбор данных из файла.
